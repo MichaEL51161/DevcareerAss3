@@ -63,3 +63,23 @@ text-align: center;
     color: white;
     background-color: black;
 }
+
+@media (min-width:320px)and (max-width:480) {
+   .header{
+      text-align: center;
+          background-color: chocolate;
+          text-align: center;
+          height: 20px;
+          justify-content: space-around;
+       }
+       .header a{
+         font-size: 12px;
+         text-decoration: none;
+      text-align: center;
+          border: 0px solid blanchedalmond;
+          margin: 0px 20px;
+          border-radius: 5px;
+          color: white;
+          padding: 0px;
+       }  
+}
